@@ -1,13 +1,14 @@
 #pragma once
 
 #include "Common.h"
+#include "string.h"
 #include "MapSite.h"
 
 class Room : public MapSite {
 public:
 	Room(int RoomNo);
 	
-	MapSite* GetSite(Direction) const;
+	MapSite* GetSide(Direction) const;
 	void SetSide(Direction, MapSite*);
 	
 	virtual void Enter();
