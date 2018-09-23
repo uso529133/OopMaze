@@ -1,7 +1,7 @@
 
 #include "Room.h"
 
-Room::Room(int RoomNo) : _roomNumber(RoomNo), _sides{} { }
+Room::Room(int RoomNo) : _roomNumber(RoomNo), _sides{new Wall, new Wall, new Wall, new Wall} { }
 
 void Room::Enter() {
 	return;

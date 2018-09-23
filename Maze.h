@@ -2,6 +2,8 @@
 
 #include "MapSite.h"
 #include "Room.h"
+#include "Door.h"
+#include "Wall.h"
 
 class Maze {
 public:

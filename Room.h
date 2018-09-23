@@ -3,6 +3,7 @@
 #include "Common.h"
 #include "string.h"
 #include "MapSite.h"
+#include "Wall.h"
 
 class Room : public MapSite {
 public:

@@ -1,17 +1,10 @@
 #pragma once
 
 #include "Common.h"
-#include "MapSite.
+#include "MapSite.h"
 
 class Wall : public MapSite {
 public:
-	Wall(Room* = 0, Room* = 0);
-	
+	Wall();
 	virtual void Enter();
-	Room* OtherSideFrom(Room*);
-	
-private:
-	Room* _room1;
-	Room* _room2;
-	bool _isOpen;
 };
