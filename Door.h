@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Common.h"
+#include "Room.h"
 #include "MapSite.h"
 
 class Door : public MapSite {

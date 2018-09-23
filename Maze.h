@@ -12,5 +12,5 @@ public:
 
 private:
 	int _lastIndex;
-	MapSite* _map[500];
+	Room* _map[500];
 };
